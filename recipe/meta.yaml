@@ -26,6 +26,8 @@ requirements:
 test:
   imports:
     - nose_cov
+  commands:
+    - nosetests --cov --help
 
 about:
   home: http://bitbucket.org/memedough/nose-cov/overview
