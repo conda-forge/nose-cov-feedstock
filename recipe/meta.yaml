@@ -27,7 +27,8 @@ test:
   imports:
     - nose_cov
   commands:
-    - nosetests --cov --help
+    - nosetests --help
+    - nosetests --plugins
 
 about:
   home: http://bitbucket.org/memedough/nose-cov/overview
