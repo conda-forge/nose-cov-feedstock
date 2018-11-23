@@ -20,7 +20,6 @@ requirements:
     - pip
   run:
     - python
-    - setuptools
     - nose >=0.11.4
     - cov-core >=1.6
 
